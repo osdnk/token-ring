@@ -29,7 +29,7 @@ typedef enum {
 
 typedef struct {
     MessageType msg_type;
-    int value;;
+    int value;
     int port;
     int next_port;
 } Token;
