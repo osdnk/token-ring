@@ -22,3 +22,7 @@ tcp2:
 	./client drugi 9012 127.0.0.1 9011 0 tcp
 tcp3:
 	./client trzeci 9013 127.0.0.1 9011 0 tcp
+
+
+logger:
+	node logger.js
