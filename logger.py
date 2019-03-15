@@ -5,7 +5,7 @@ import socket
 import datetime
 import sys
 
-MULTICAST_IP = "224.0.0.1"
+MULTICAST_IP = "237.0.0.1"
 MULTICAST_PORT = 9010
 buff = []
 log_filename = "log.txt"
