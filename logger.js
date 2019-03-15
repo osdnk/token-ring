@@ -21,6 +21,6 @@ console.log(`server listening ${address.address}:${address.port}`);
 });
 
 server.bind({
-    address: '224.0.0.1',
+   // address: '224.0.0.1',
     port: 9010,
-});
+}, () => server.addMembership("237.0.0.1"));

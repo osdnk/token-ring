@@ -48,7 +48,7 @@ void tcp_send_init_token();
 
 
 
-char *multicast_ip_address = "224.0.0.1";
+char *multicast_ip_address = "237.0.0.1";
 int multicast_port = 9010;
 
 void init_multicast() {
